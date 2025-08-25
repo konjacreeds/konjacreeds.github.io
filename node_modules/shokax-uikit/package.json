@@ -1,0 +1,51 @@
+{
+  "name": "shokax-uikit",
+  "type": "module",
+  "version": "0.0.5",
+  "exports": {
+    "./components/codeblock/init": {
+      "types": "./dist/codeblock/entries/codeblock.d.ts",
+      "import": "./dist/codeblock/codeblock.js",
+      "default": "./dist/codeblock/codeblock.js"
+    },
+    "./components/pagefind/init": {
+      "types": "./dist/pagefind/entries/pagefind.d.ts",
+      "import": "./dist/pagefind/pagefind.js",
+      "default": "./dist/pagefind/pagefind.js"
+    },
+    "./palette": "./src/styles/palette.css",
+    "./style": "./src/styles/style.css",
+    "./*": "./*"
+  },
+  "scripts": {
+    "dev": "vite",
+    "check-types": "vue-tsc -b",
+    "build": "vite build && vite build --config vite.codeblock.config.ts",
+    "preview": "vite preview",
+    "lint": "eslint --ext .ts,.vue . --fix",
+    "test": "echo 'No test specified' && exit 0",
+    "test:e2e": "echo 'No test specified' && exit 0"
+  },
+  "dependencies": {
+    "@pagefind/default-ui": "^1.3.0",
+    "@vueuse/core": "^13.5.0",
+    "es-toolkit": "^1.39.8",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vite-plugin-dts": "^4.5.4",
+    "vue": "^3.5.18"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^5.0.0",
+    "@iconify-json/ri": "^1.2.5",
+    "@unocss/eslint-plugin": "^66.3.3",
+    "@unocss/preset-icons": "^66.3.3",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/tsconfig": "^0.7.0",
+    "eslint": "^9.32.0",
+    "eslint-plugin-format": "^1.0.1",
+    "typescript": "~5.8.3",
+    "unocss": "^66.3.3",
+    "vite": "^7.0.6",
+    "vue-tsc": "^3.0.4"
+  }
+}

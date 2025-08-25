@@ -1,0 +1,1 @@
+export const _PAGE_WAVES_ELEMENT = Symbol('PAGE_WAVES_ELEMENT')
