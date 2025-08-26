@@ -1,0 +1,2 @@
+# 注释掉默认的 public 忽略规则，让 Git 跟踪 public/
+# /public/
