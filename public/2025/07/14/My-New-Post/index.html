@@ -76,6 +76,23 @@
   </style>
 </noscript>
 
+<style>
+  /* 强制设置背景图，优先级最高 */
+  body {
+    background: url(/images/luo.png) no-repeat center center fixed !important; 
+    background-size: cover !important;
+    position: relative;
+    z-index: -3;
+  }
+  /* 内容区域半透明，确保文字可见 */
+  .main-inner, .sidebar {
+    background: rgba(255,255,255,0.85) !important;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+  }
+</style>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -378,7 +395,7 @@
       function t(){
         var t=e("script"),o=t.length,i=t[o-1];
         return{
-          l:o,z:n(i,"zIndex",-1),o:n(i,"opacity",.5),c:n(i,"color","65,37,218"),n:n(i,"count",280)
+          l:o,z:n(i,"zIndex",-2),o:n(i,"opacity",.5),c:n(i,"color","65,37,218"),n:n(i,"count",280)
         }
       }
       function o(){
