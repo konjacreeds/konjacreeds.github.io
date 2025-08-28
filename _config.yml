@@ -48,6 +48,9 @@ post_asset_folder: false
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
+# Enable HTML tags in Markdown
+marked:
+  sanitize: false
 highlight:
   line_number: true
   auto_detect: false

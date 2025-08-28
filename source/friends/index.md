@@ -5,5 +5,12 @@ layout: page
 ---
 
 ### 我的朋友们
-- [朋友1的博客](https://friend1.com)
-- [朋友2的博客](https://friend2.com)
+<div class="friends-container">
+  <div class="friend-item">
+    <img src="/images/lingmolix-avatar.jpg" class="friend-avatar" alt="Lingmolix">
+    <h3>Lingmolix</h3>
+    <a href="https://lingmolix.github.io" class="friend-link">博客</a>
+    <p class="friend-note">备注：朋友的博客</p>
+  </div>
+</div>
+</div>
