@@ -1,24 +1,18 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Hexo",
-    "description": "",
-    "home_page_url": "http://example.com",
+    "title": "蒟蒻芦苇的博客",
+    "description": "蒟蒻芦苇的个人博客\n计算机小白，正在学习编程\n喜欢分享日常和学习心得\n欢迎交流学习经验\n",
+    "home_page_url": "https://konjacreeds.github.io",
     "items": [
         {
-            "id": "http://example.com/2025/07/14/My-New-Post/",
-            "url": "http://example.com/2025/07/14/My-New-Post/",
-            "title": "My New Post",
-            "date_published": "2025-07-14T15:07:23.000Z",
-            "content_html": "<p>我来试试看是不是这样就可以了</p>\n",
-            "tags": []
-        },
-        {
-            "id": "http://example.com/2025/07/14/hello-world/",
-            "url": "http://example.com/2025/07/14/hello-world/",
-            "title": "Hello World",
-            "date_published": "2025-07-14T14:40:27.883Z",
-            "content_html": "<p>Welcome to <a href=\"https://hexo.io/\">Hexo</a>! This is your very first post. Check <a href=\"https://hexo.io/docs/\">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href=\"https://hexo.io/docs/troubleshooting.html\">troubleshooting</a> or you can ask me on <a href=\"https://github.com/hexojs/hexo/issues\">GitHub</a>.</p>\n<h2 id=\"quick-start\"><a class=\"anchor\" href=\"#quick-start\">#</a> Quick Start</h2>\n<h3 id=\"create-a-new-post\"><a class=\"anchor\" href=\"#create-a-new-post\">#</a> Create a new post</h3>\n<p><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo new <span class=\"string\">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></p>\n<p>More info: <a href=\"https://hexo.io/docs/writing.html\">Writing</a></p>\n<h3 id=\"run-server\"><a class=\"anchor\" href=\"#run-server\">#</a> Run server</h3>\n<p><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo server</span><br></pre></td></tr></table></figure></p>\n<p>More info: <a href=\"https://hexo.io/docs/server.html\">Server</a></p>\n<h3 id=\"generate-static-files\"><a class=\"anchor\" href=\"#generate-static-files\">#</a> Generate static files</h3>\n<p><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo generate</span><br></pre></td></tr></table></figure></p>\n<p>More info: <a href=\"https://hexo.io/docs/generating.html\">Generating</a></p>\n<h3 id=\"deploy-to-remote-sites\"><a class=\"anchor\" href=\"#deploy-to-remote-sites\">#</a> Deploy to remote sites</h3>\n<p><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo deploy</span><br></pre></td></tr></table></figure></p>\n<p>More info: <a href=\"https://hexo.io/docs/one-command-deployment.html\">Deployment</a></p>\n",
-            "tags": []
+            "id": "https://konjacreeds.github.io/2025/08/27/My-New-Post/",
+            "url": "https://konjacreeds.github.io/2025/08/27/My-New-Post/",
+            "title": "我的第一篇文章",
+            "date_published": "2025-08-27T04:00:00.000Z",
+            "content_html": "<p>这里是文章内容...  # 内容不能为空</p>\n",
+            "tags": [
+                "测试"
+            ]
         }
     ]
 }

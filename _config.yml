@@ -3,17 +3,21 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 蒟蒻芦苇的博客
 subtitle: ''
-description: ''
+description: |
+  蒟蒻芦苇的个人博客
+  计算机小白，正在学习编程
+  喜欢分享日常和学习心得
+  欢迎交流学习经验
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: 蒟蒻芦苇
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://konjacreeds.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,6 +101,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+style: source/_data/styles.styl
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -104,3 +109,9 @@ deploy:
   type: git
   repository: git@github.com:konjacreeds/konjacreeds.github.io
   branch: main
+
+# Hexo 根目录 _config.yml
+#inject:
+#  head:
+#    # 注：如果是 NexT 主题，也可通过 themes/next/_config.yml 的 custom_file_path 注入，效果一致
+#    - <script src="/js/fireworks.js"></script>

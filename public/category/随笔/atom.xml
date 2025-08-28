@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://konjacreeds.github.io</id>
+    <title>蒟蒻芦苇的博客 • Posts by &#34;随笔&#34; category</title>
+    <link href="https://konjacreeds.github.io" />
+    <updated>2025-08-27T04:00:00.000Z</updated>
+    <category term="测试" />
+    <entry>
+        <id>https://konjacreeds.github.io/2025/08/27/My-New-Post/</id>
+        <title>我的第一篇文章</title>
+        <link rel="alternate" href="https://konjacreeds.github.io/2025/08/27/My-New-Post/"/>
+        <content type="html">&lt;p&gt;这里是文章内容...  # 内容不能为空&lt;/p&gt;
+</content>
+        <category term="测试" />
+        <updated>2025-08-27T04:00:00.000Z</updated>
+    </entry>
+</feed>
