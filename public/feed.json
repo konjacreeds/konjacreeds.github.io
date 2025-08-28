@@ -13,6 +13,14 @@
             "tags": [
                 "测试"
             ]
+        },
+        {
+            "id": "https://konjacreeds.github.io/2025/08/27/friend/",
+            "url": "https://konjacreeds.github.io/2025/08/27/friend/",
+            "title": "友链",
+            "date_published": "2025-08-27T04:00:00.000Z",
+            "content_html": "<h3 id=\"我的朋友们\"><a class=\"anchor\" href=\"#我的朋友们\">#</a> 我的朋友们</h3>\n<p>&lt;div class=&quot;friends-container&quot;&gt;<br />\n&lt;div class=&quot;friend-item&quot;&gt;<br />\n&lt;img src=&quot;/images/lingmolix-avatar.jpg&quot; class=&quot;friend-avatar&quot; alt=&quot;Lingmolix&quot;&gt;<br />\n&lt;h3&gt;Lingmolix&lt;/h3&gt;<br />\n&lt;a href=&quot;<a href=\"https://lingmolix.github.io\">https://lingmolix.github.io</a>&quot; class=&quot;friend-link&quot;&gt;博客&lt;/a&gt;<br />\n&lt;p class=&quot;friend-note&quot;&gt;备注：朋友的博客&lt;/p&gt;<br />\n&lt;/div&gt;<br />\n&lt;/div&gt;<br />\n&lt;/div&gt;</p>\n",
+            "tags": []
         }
     ]
 }
