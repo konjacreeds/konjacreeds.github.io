@@ -14,21 +14,4 @@
         <category term="测试" />
         <updated>2025-08-27T04:00:00.000Z</updated>
     </entry>
-    <entry>
-        <id>https://konjacreeds.github.io/2025/08/27/friend/</id>
-        <title>友链</title>
-        <link rel="alternate" href="https://konjacreeds.github.io/2025/08/27/friend/"/>
-        <content type="html">&lt;h3 id=&#34;我的朋友们&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#我的朋友们&#34;&gt;#&lt;/a&gt; 我的朋友们&lt;/h3&gt;
-&lt;p&gt;&amp;lt;div class=&amp;quot;friends-container&amp;quot;&amp;gt;&lt;br /&gt;
-&amp;lt;div class=&amp;quot;friend-item&amp;quot;&amp;gt;&lt;br /&gt;
-&amp;lt;img src=&amp;quot;/images/lingmolix-avatar.jpg&amp;quot; class=&amp;quot;friend-avatar&amp;quot; alt=&amp;quot;Lingmolix&amp;quot;&amp;gt;&lt;br /&gt;
-&amp;lt;h3&amp;gt;Lingmolix&amp;lt;/h3&amp;gt;&lt;br /&gt;
-&amp;lt;a href=&amp;quot;&lt;a href=&#34;https://lingmolix.github.io&#34;&gt;https://lingmolix.github.io&lt;/a&gt;&amp;quot; class=&amp;quot;friend-link&amp;quot;&amp;gt;博客&amp;lt;/a&amp;gt;&lt;br /&gt;
-&amp;lt;p class=&amp;quot;friend-note&amp;quot;&amp;gt;备注：朋友的博客&amp;lt;/p&amp;gt;&lt;br /&gt;
-&amp;lt;/div&amp;gt;&lt;br /&gt;
-&amp;lt;/div&amp;gt;&lt;br /&gt;
-&amp;lt;/div&amp;gt;&lt;/p&gt;
-</content>
-        <updated>2025-08-27T04:00:00.000Z</updated>
-    </entry>
 </feed>

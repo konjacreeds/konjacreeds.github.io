@@ -1,0 +1,121 @@
+---
+title: 友链
+date: 2025-08-09
+layout: page
+---
+
+<h2>我的朋友们</h2>
+
+<div id="friends-container"></div>
+
+<script>
+  // 友链数据
+  const friends = [
+    {
+      name: '凌末离',
+      url: 'https://lingmolix.github.io',
+      avatar: '/images/lingmolix-avatar.jpg',
+      desc: '会超多有意思魔法的大魔法师！'
+    }
+  ];
+  
+  // 页面加载完成后执行
+  document.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('friends-container');
+    
+    // 创建容器样式
+    container.style.display = 'flex';
+    container.style.flexWrap = 'wrap';
+    container.style.gap = '20px';
+    
+    // 如果没有友链数据
+    if (friends.length === 0) {
+      container.innerHTML = '<p>暂无好友链接</p>';
+      return;
+    }
+    
+    // 动态创建友链项
+    friends.forEach(friend => {
+      // 创建友链项容器
+      const item = document.createElement('div');
+      item.style.width = '200px';
+      item.style.textAlign = 'center';
+      item.style.padding = '15px';
+      item.style.borderRadius = '8px';
+      item.style.background = '#f8f9fa';
+      item.style.boxShadow = '0 2px 8px rgba(0,0,0,0.1)';
+      item.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease';
+      
+      // 添加悬停效果
+      item.onmouseover = function() {
+        this.style.transform = 'translateY(-5px)';
+        this.style.boxShadow = '0 5px 15px rgba(0,0,0,0.15)';
+      };
+      
+      item.onmouseout = function() {
+        this.style.transform = 'translateY(0)';
+        this.style.boxShadow = '0 2px 8px rgba(0,0,0,0.1)';
+      };
+      
+      // 创建头像
+      const avatar = document.createElement('img');
+      avatar.src = friend.avatar;
+      avatar.alt = friend.name;
+      avatar.style.width = '100px';
+      avatar.style.height = '100px';
+      avatar.style.borderRadius = '50%';
+      avatar.style.marginBottom = '10px';
+      avatar.style.objectFit = 'cover';
+      
+      // 创建名称
+      const name = document.createElement('h3');
+      name.textContent = friend.name;
+      name.style.margin = '10px 0';
+      name.style.fontSize = '18px';
+      name.style.color = '#333';
+      
+      // 创建链接
+      const link = document.createElement('a');
+      link.href = friend.url;
+      link.target = '_blank';
+      link.textContent = '访问博客';
+      link.style.color = '#2979ff';
+      link.style.textDecoration = 'none';
+      link.style.fontSize = '14px';
+      link.style.display = 'inline-block';
+      link.style.padding = '5px 15px';
+      link.style.border = '1px solid #2979ff';
+      link.style.borderRadius = '15px';
+      link.style.margin = '8px 0';
+      link.style.transition = 'all 0.3s ease';
+      
+      // 链接悬停效果
+      link.onmouseover = function() {
+        this.style.background = '#2979ff';
+        this.style.color = 'white';
+      };
+      
+      link.onmouseout = function() {
+        this.style.background = 'transparent';
+        this.style.color = '#2979ff';
+      };
+      
+      // 创建描述
+      const desc = document.createElement('p');
+      desc.textContent = friend.desc;
+      desc.style.marginTop = '10px';
+      desc.style.fontSize = '14px';
+      desc.style.color = '#666';
+      desc.style.lineHeight = '1.5';
+      
+      // 添加所有元素到友链项
+      item.appendChild(avatar);
+      item.appendChild(name);
+      item.appendChild(link);
+      item.appendChild(desc);
+      
+      // 添加友链项到容器
+      container.appendChild(item);
+    });
+  });
+</script>
