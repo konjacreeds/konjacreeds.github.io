@@ -7,11 +7,11 @@
         {
             "id": "https://konjacreeds.github.io/2025/08/27/My-New-Post/",
             "url": "https://konjacreeds.github.io/2025/08/27/My-New-Post/",
-            "title": "我的第一篇文章",
+            "title": "关于这个博客的起源",
             "date_published": "2025-08-27T04:00:00.000Z",
-            "content_html": "<p>这里是文章内容...  # 内容不能为空</p>\n",
+            "content_html": "<p>其实搭建一个博客的想法已经有了很久很久，最早可以追溯到初一的时候，那时候oj群里有个叫yemaster的大佬教我们搭博客，由此也注册了第一个github账号，那时候大概其实也就有个一个博客，<a href=\"http://xn--lightningreeds-ui11ay09ey1a.github.io\">当时是lightningreeds.github.io</a>，只不过很可惜，那个现在似乎打不开了。<br />\n现在新注册了一个账号变成了konjacreeds，也就是蒟蒻芦苇。当年一直想要完成的博客，现在似乎也完成了很多，原本打算高考结束弄，不过看这个暑假闲暇时间颇多，不妨就浅浅按照教程搭建了一下。以后这个博客会时不时更新我的一些分享，一些见解，或是其他有趣的东西，欢迎常来看看~<br />\n是的，只是想要搭建一个自己的博客，仅此而已</p>\n",
             "tags": [
-                "测试"
+                "杂谈"
             ]
         }
     ]
